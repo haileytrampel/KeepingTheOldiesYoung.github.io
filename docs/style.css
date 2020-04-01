@@ -1,0 +1,179 @@
+* {
+  box-sizing: border-box;
+}
+
+.stars{
+  background:
+linear-gradient(324deg, #232927 4%,   transparent 4%) -70px 43px,
+linear-gradient( 36deg, #232927 4%,   transparent 4%) 30px 43px,
+linear-gradient( 72deg, #e3d7bf 8.5%, transparent 8.5%) 30px 43px,
+linear-gradient(288deg, #e3d7bf 8.5%, transparent 8.5%) -70px 43px,
+linear-gradient(216deg, #e3d7bf 7.5%, transparent 7.5%) -70px 23px,
+linear-gradient(144deg, #e3d7bf 7.5%, transparent 7.5%) 30px 23px,
+
+linear-gradient(324deg, #232927 4%,   transparent 4%) -20px 93px,
+linear-gradient( 36deg, #232927 4%,   transparent 4%) 80px 93px,
+linear-gradient( 72deg, #e3d7bf 8.5%, transparent 8.5%) 80px 93px,
+linear-gradient(288deg, #e3d7bf 8.5%, transparent 8.5%) -20px 93px,
+linear-gradient(216deg, #e3d7bf 7.5%, transparent 7.5%) -20px 73px,
+linear-gradient(144deg, #e3d7bf 7.5%, transparent 7.5%) 80px 73px;
+background-color: #232927;
+background-size: 100px 100px;
+}
+
+.coloredbackground{
+  background-color: #e6eeff;
+}
+
+ul {
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  list-style-type: none;
+  margin: 20px 0px;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+.active {
+  background-color: green;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 16px;
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: red;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+
+p {
+    font-size: 20px;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    text-indent: 50px;
+    padding: 0px 60px 0px 60px;
+}
+
+h1, h2{
+  font-family: "Arial Black", Gadget, sans-serif;
+  color: #5784f4
+}
+
+h1{
+  font-size: 3em;
+  text-align: center;
+}
+
+h2{
+  font-size: 2em;
+  padding: 0px 0px 0px 40px
+}
+
+.quote{
+  font-size: 2em;
+  color: #3498A4;
+  font-style: italic;
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  text-align: center;
+}
+
+div.bowiebackground {
+  background: url(images/bowie-background.png) repeat;
+  border: 2px solid black;
+}
+
+div.storiesbackground{
+  background: url(images/vinylcopy.png) repeat;
+  border: 2px solid black;
+}
+
+div.transbox {
+  margin: 60px;
+  background-color: #ffffff;
+  border: 1px solid black;
+  opacity: 0.9;
+}
+
+div.transbox p {
+  font-weight: bold;
+  color: #000000;
+  opacity: 1;
+}
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 25%;
+  padding: 5px;
+}
+img {
+  opacity: 0.5;
+}
+
+img:hover {
+  opacity: 1.0;
+}
+
+ital {
+  font-style: italic
+}
+
+.logo{
+  height: 280px; /* Change this height to change the size of the cow */
+    background: url(images/logo.png) bottom center no-repeat;
+    background-size: contain;
+}
